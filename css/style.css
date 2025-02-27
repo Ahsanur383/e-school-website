@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+    max-width:1140px;
+    margin: 0 auto ;  
+    padding: 20px 0; 
+}
+.heding-section{
+    background-color: #F0FFF0;
+}
+.main-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+   width: 198px;
+}
+.menu ul{
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ gap: 32px;
+ /* background-color:#F0FFF0; */
+ align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.menu ul li a:hover{
+   color: #21B573; 
+   transition: 0.5s;
+}
+.sing-in-btn{
+    border: #21B573 solid 2px;
+    padding: 5px 26px;
+    border-radius: 35px;
+    color: #21B573 !important;
+}
+.sing-in-btn:hover{
+    background-color: #21B573;
+    color: #fff !important;
+    transition: 0.5s;
+}
+/* hero section start */
+.hero-section{
+  background-color: #F0FFF0;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+/* .heding-hero{
+  
+} */
+.learn{
+  color: red;
+  padding: 20px 0;
+}
+.heding-hero h1{
+  font-size: 35px;
+  padding: 10px 0;
+}
+.heding-hero h1 .heding-color{
+  color: #21B573;
+}
+.default-btn{
+    display: inline-block;
+    margin: 17px 0;
+    border: #21B573 solid 2px;
+    padding: 5px 26px;
+    border-radius: 35px;
+    color: #21B573 !important;
+    text-decoration: none;
+}
+.default-btn:hover{
+    background-color: #21B573;
+    color: #fff !important;
+    transition: 0.5s;
+}
+.hero-pregrap{
+  padding: 10px 0;
+}
+.hero-image img {
+    width: 554px;
+}
+
+/* hero section end */
+
+
+/* student book list css */
+.student-book{
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.book-list{
+ text-align: center;
+ padding: 60px 50px;
+ background-color: #fff;
+ box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+ border-radius: 10px;
+ 
+}
+.book-list:hover{
+    background-color: #F8FFFB;
+    transition: 0.5s;
+    box-shadow: 6px 8px 5px rgba(0, 0, 0, .3);
+}
+img{
+    width: 66px;
+    
+}
+h5{
+  font-size: 15px;
+  margin-top: 10px;
+}
+p{
+  margin-top: 10px ;
+}
+
+/* student book list css end */
+
+/* Online Course Section css  */
+.course-heding{
+   padding: 40px;
+}
+.heding-course{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+}
+.course-list{
+ display: flex;
+ justify-content: space-between;
+ gap: 32px;
+ 
+}
+.course-item{
+    padding: 10px 10px ;
+    box-shadow: 6px 8px 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+.course-img{
+ width: 330px;
+}
+.description{
+   padding: 10px 0;
+}
+p{
+padding-bottom: 5px;
+}
+.date-seat{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.date-taxt{
+ display: flex;
+ gap: 10px ;
+ align-items: center;
+}
+.seat-icone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Online Course Section css  End */
+
+/* Testimonial css start */
+.Testimonial-heding{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0 ;
+}
+.revew-Testimonial{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+/* Testimonial css end */
